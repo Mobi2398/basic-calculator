@@ -1,6 +1,7 @@
 """This is the starting test file"""
+from app.multiplication import multiplication
 
 
-def test_remove_meant_to_fail_must_remove():
+def test_multiplication():
     """This always passes"""
-    assert False
+    assert multiplication(2, 2) == 4
